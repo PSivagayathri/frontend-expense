@@ -1,0 +1,87 @@
+
+
+.transaction-listing {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transaction-listing ul li {
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px 0;
+  position: relative;
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.transaction-listing ul li.plus {
+  border-right: 5px solid var(--income-color);
+}
+
+.transaction-listing ul li.minus {
+  border-right: 5px solid var(--expense-color);
+}
+
+
+.transaction-listing button {
+  display: none;
+  cursor: pointer;
+  background-color: var(--delete-bg-color);
+  border: 0;
+  color: #fff;
+  font-size: 20px; 
+  padding: 5px;
+  border-radius: 50%; 
+  transition: background-color 0.3s ease;
+}
+
+
+.transaction-listing ul li:hover button {
+  display: inline-block;
+}
+
+
+.transaction-listing ul li:hover {
+  background-color: #f0f0f0; 
+  transform: scale(1.05); 
+}
+
+
+.inc-exp-container {
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+
+.inc-exp-container > div {
+  flex: 1;
+  text-align: center;
+}
+
+.inc-exp-container > div:first-of-type {
+  border-right: 10px solid var(--border-color);
+}
+
+
+.money-plus {
+  color: var(--income-color); 
+  font-weight: bold;
+  transition: color 0.3s ease; 
+}
+
+
+.money-minus {
+  color: var(--expense-color); 
+  font-weight: bold;
+  transition: color 0.3s ease; 
+}
