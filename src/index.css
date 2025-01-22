@@ -18,7 +18,7 @@
 /* Background image with transparency */
 body {
   background-color: var(--overall-background);
-  background-image: url('src/components/images/expense.jpg'); /* Add the image URL here */
+  background-image: url('C:\Users\P SIVA GAYATHRI\Downloads\expense-tracker\src\components\images\income-and-expenses-spot.jpg'); /* Add the image URL here */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
