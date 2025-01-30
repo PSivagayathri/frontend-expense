@@ -3,7 +3,7 @@ import './App.css';
 import './index.css';
 import AddTransaction from './components/AddTransaction';
 import TransactionList from './components/TransactionList';
-import Balance from './components/balance';
+import Balance from './components/Balance';
 import IncomeExpense from './components/IncomeExpense';
 
 function App() {
